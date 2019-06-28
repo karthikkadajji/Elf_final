@@ -1,0 +1,5 @@
+SOURCES=src/bitvector_block.cpp src/bitvector.cpp src/bitvector_iterator.cpp src/bwh_column_block.cpp src/bwh_column_iterator.cpp src/bwv_column_block.cpp src/bwv_column_iterator.cpp src/column.cpp src/column_iterator.cpp src/env.cpp src/file.cpp src/iterator.cpp src/naive_column_block.cpp src/options.cpp src/status.cpp src/table.cpp src/utility.cpp 
+TEST_SOURCES=tests/bitvector_iterator_test.cpp tests/bwh_column_block_param_test.cpp tests/bwh_column_block_test.cpp tests/bwv_column_block_param_test.cpp tests/bwv_column_block_test.cpp tests/iterator_param_test.cpp tests/iterator_test.cpp tests/table_test.cpp 
+EXAMPLE_SOURCES=examples/simple.cpp examples/speed.cpp 
+CXX=g++
+PLATFORM_CXXFLAGS=-DPOPCNT
